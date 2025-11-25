@@ -25,7 +25,7 @@ export interface Branch {
   color: string;
 }
 
-export type ViewMode = 'intro' | 'hashing' | 'areas' | 'commits' | 'branches' | 'merging' | 'timetravel' | 'cherrypick' | 'rebase' | 'reset' | 'tags' | 'stash' | 'flow';
+export type ViewMode = 'intro' | 'hashing' | 'areas' | 'commits' | 'branches' | 'merging' | 'timetravel' | 'cherrypick' | 'rebase' | 'reset' | 'tags' | 'stash' | 'flow' | 'playground';
 
 export interface LessonStep {
   title: string;

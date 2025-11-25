@@ -77,5 +77,10 @@ export const LESSONS: Record<ViewMode, LessonStep> = {
     title: "十二、工业级流水线 (Git Flow)",
     description: "在多人协作的大公司，我们不能都在 Main 上胡搞。我们需要一套严格的交通规则：功能(Feature)汇入开发(Dev)，开发稳定后汇入预发布(Release)，最后才进入生产(Main)。",
     interactionPrompt: "模拟一个 Feature 从开发到最终上线的完整生命周期流转。"
+  },
+  playground: {
+    title: "终章：以太试炼 (The Ethereal Trials)",
+    description: "纸上得来终觉浅。这里是你的演武场。我为你准备了 4 个真实场景的谜题。你需要组合使用 Commit, Branch, Checkout, Merge 等指令，将时间线修复成目标形态。",
+    interactionPrompt: "选择关卡，观察目标，然后点击下方指令卡牌进行操作。"
   }
 };

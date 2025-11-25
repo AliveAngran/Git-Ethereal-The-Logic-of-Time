@@ -12,12 +12,13 @@ import { ResetRevertModule } from './components/modules/ResetRevertModule';
 import { TagsModule } from './components/modules/TagsModule';
 import { StashModule } from './components/modules/StashModule';
 import { GitFlowModule } from './components/modules/GitFlowModule';
+import { PlaygroundModule } from './components/modules/PlaygroundModule';
 import { ViewMode } from './types';
 import { LESSONS } from './constants';
 import { 
   GitGraph, Database, Network, Clock, PlayCircle, Menu, X, 
   GitMerge, History, Layers, Copy, ArrowUpCircle, AlertOctagon,
-  Tag, Archive, Container, Home, ChevronRight, Fingerprint
+  Tag, Archive, Container, Home, ChevronRight, Fingerprint, Swords
 } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -70,6 +71,7 @@ const App: React.FC = () => {
       case 'tags': return <TagsModule />;
       case 'stash': return <StashModule />;
       case 'flow': return <GitFlowModule />;
+      case 'playground': return <PlaygroundModule />;
       default: return null;
     }
   };
@@ -88,6 +90,7 @@ const App: React.FC = () => {
     { id: 'tags', icon: <Tag className="w-4 h-4" />, label: '10. 标签 (Tags)' },
     { id: 'stash', icon: <Archive className="w-4 h-4" />, label: '11. 暂存 (Stash)' },
     { id: 'flow', icon: <Container className="w-4 h-4" />, label: '12. 流 (Git Flow)' },
+    { id: 'playground', icon: <Swords className="w-4 h-4" />, label: '13. 试炼 (Trials)' },
   ];
 
   return (
