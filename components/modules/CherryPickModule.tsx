@@ -122,7 +122,7 @@ export const CherryPickModule: React.FC = () => {
         <p className="text-sm text-slate-300 leading-relaxed">
             注意看 Main 分支上新生成的节点。它的 <strong>Hash ID 变了</strong>。
             虽然内容和 Feature 分支上的原始节点一模一样，但因为它的父节点不同（Context 不同），所以它是一个全新的提交。
-            Cherry-pick 本质上是「读取旧补丁 -> 应用到新分支 -> 生成新快照」的过程。
+            Cherry-pick 本质上是「读取旧补丁 → 应用到新分支 → 生成新快照」的过程。
         </p>
       </div>
 
